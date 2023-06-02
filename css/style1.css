@@ -1,0 +1,384 @@
+
+* {
+  /* background-color: #464A5E; */
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+  
+}
+
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  /* background-color: #464A5E !important; */
+background-color: black !important;
+  color: white;
+}
+p {
+    font-family: bodyfont   ;
+}
+
+@font-face {
+    font-family: bodyfont;
+    src: url(../Poppins/Poppins-Regular.ttf)
+    
+
+}
+
+@font-face {
+  font-family: bold;
+  src: url(../Poppins/Poppins-Bold.ttf)
+  
+
+}
+
+#navigation {
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+#infor ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: bodyfont;
+    
+}
+
+#infor ul li a:hover {
+  font-weight: 700;
+}
+#infor ul {
+    padding-right: 5%;
+}
+
+#infor ul li {
+    list-style-type: none;
+    font-size: 1rem;
+    float: right;
+    padding: 1rem 0.5rem;
+}
+
+/* picturemain */
+
+#picturemain img {
+    width: 100%;
+
+
+}
+
+.casestudy {
+ box-shadow: 10px 10px;;
+}
+
+
+
+.subytext-main {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#body-main {
+    position: relative;
+    margin-bottom: 8rem;
+}
+
+.text-note {
+    position: absolute;
+    bottom: 0;
+    left: 3px;
+    margin: 0;
+}
+
+.text-note span {
+  margin-right: 0.5rem;
+}
+
+/* btn */
+.hologram-btn {
+    font-family: bodyfont;
+    display: inline-block;
+    padding: 1.5em 2.6em;
+    border-radius: 0;
+    color: white;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    transition: all 250ms ease;
+    margin-left: 0.2rem;
+  }
+  .hologram-btn:before, .hologram-btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    transition: 0.25s;
+    color: white;
+  }
+  .hologram-btn:before {
+    transform: translateX(-0.25em) translateY(0.25em);
+  }
+  .hologram-btn:after {
+    transform: translateX(0.25em) translateY(-0.25em);
+  }
+  .hologram-btn:hover:before, .hologram-btn:hover:after {
+    transform: translateX(0) translateY(0);
+  }
+
+  .hologram-btn:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* aboutme */
+  #aboutme  {
+    padding: 0 5%;
+    margin-top: 10rem;
+  }
+#project , #contact{
+    padding: 0 5%;
+    margin-top: 6rem;
+  }
+  /* text after and before  */
+
+
+  h1 {
+    position: relative;
+    margin-top: 2.5rem;
+  }
+  h1.Aboutme:before {
+    content: "About";
+    position: absolute;
+    top: -106px;
+    left: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke-color: white;
+    filter: saturate(170%) opacity(.3);
+    z-index: 1;
+    font-size: 200px;
+    font-weight: bold;
+    
+}
+
+.Aboutme-subtext,.img-main {
+  margin-top: 5rem;
+}
+
+.imgae-aboutme img {
+  width: 90%;
+}
+
+#body-main1 {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+ 
+}
+
+#body-main1 span {
+  font-size: 30vmax;
+  font-weight: bold;
+  line-height: 0.8;
+  opacity: 0.2;
+  
+}
+
+#body-main1 {
+  position: relative;
+}
+
+.body-main1-subtext {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  font-size: 2rem;
+  background: none;
+  padding: 0 5%;
+bottom: 20%;
+}
+
+
+.body-main1-subtext p {
+  background: none;
+  font-family: bold;
+  margin: 0;
+}
+
+.body-main1-subtext-mis {
+  font-size: 1.5rem;
+}
+
+.body-main1-subtext-bs {
+  font-size: 96px;
+  
+
+}
+.hr {
+ 
+  border: 2px solid white;
+  margin: 0;
+  width: 50%;
+  text-align: left;
+}
+
+#aboutme .row {
+  margin-top: 2.5rem;
+}
+
+ h1.Project:before {
+  content: "Projects" !important;
+}
+
+/* project momo */
+
+.conten-project {
+  padding: 0 5%;
+}
+
+.title-project {
+  text-align: center;
+  font-weight: 900;
+  font-size: 64px;
+  margin-bottom: 1rem;
+ 
+
+}
+
+.subtext-project {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.conten-project {
+  margin-top: 10rem;
+}
+
+.project-hr {
+  width: 20%;
+  margin: 0 auto;
+  margin-bottom: 4.5rem;
+}
+
+.title-project {
+  text-align: center;
+  margin-top: 2rem;
+}
+.momo-pic img {
+  width: 100%;
+}
+
+.workkas-project {
+  text-align: left;
+  /* margin-top: 2rem; */
+  /* border-left: 3px solid white; */
+  /* padding-left: 1rem; */
+  text-transform: capitalize;
+}
+
+.text-detail-hr {
+  margin: 3rem 0;
+}
+
+.titleconten-project {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+/* jwelry-project */
+
+.titleconten-project {
+  text-transform: uppercase;
+}
+.jwelry-project {
+  margin-top: 5rem;
+}
+
+.jwelry-project-workas  {
+  margin-top: 0;
+}
+
+h1.contact-talktome:before {
+  content: "Let's Talk" !important;
+}
+
+
+/* row-contact */
+.row-contact {
+  margin-top: 5rem;
+}
+.Myname {
+  font-size: 98px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.contact-platfomr-text {
+  font-size: 24px;
+}
+
+i {
+  color: white;
+  font-size: 40px;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.email {
+  color: white;
+  margin-top: 1rem;
+}
+
+#contact {
+  margin-bottom: 3rem;
+}
+
+.contact-platfomr img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* btn back to top */
+
+#btn-back-to-top {
+  color:black;
+  text-decoration: none;
+ /* background-color: #fff; */
+  /* box-shadow: var(--box-shadow); */
+  font-size: 24px;
+  /* padding: 10px 10px; */
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  border-radius: none;
+  cursor: pointer;
+  }
+
+.copyrights {
+  margin-top: 1rem;
+}
+
+.quote-project {
+  border-left: 3px solid white;
+  padding-left: 5px;
+}

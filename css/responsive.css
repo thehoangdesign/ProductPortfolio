@@ -1,0 +1,309 @@
+/* xl */
+
+
+@media   (min-width: 1500px){
+
+    #infor ul li {
+        
+        font-size: 1.2rem;
+        float: right;
+        padding: 1rem 1rem;
+    }
+
+    .subytext-main {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    subytext-main {
+        padding-right: 1rem;
+    }
+    #body-main {
+        height: 500px;
+    }
+
+    #aboutme {
+        padding: 0 5%;
+        margin-top: 10rem;
+      }
+      #project, #contact {
+        margin-top: 7rem;
+      }
+
+      .body-main1-subtext {
+        padding: 0 10%;
+
+      }
+
+      .momo-pic img.momo-picture {
+        width: 80%;
+      }
+        
+}
+
+
+
+@media  (max-width: 1500px) and (min-width: 1200px){
+
+
+    #text img {
+        width: 70%;
+    }
+    subytext-main {
+        padding-right: 1rem;
+    }
+
+    #aboutme {
+        padding: 0 5%;
+        margin-top: 10rem;
+      }
+      #project, #contact {
+        margin-top: 7rem;
+      }
+
+      .body-main1-subtext {
+        padding: 0 10%;
+
+      }
+
+      .body-main1-subtext {
+        bottom: 15%;
+      }
+
+      .momo-pic img.momo-picture {
+        width: 80%;
+      }
+        
+        
+        
+     }
+
+    
+    /* lg*/
+    
+    @media (max-width: 1199.9px) and (min-width: 992px){
+        #text img {
+            width: 85%;
+        }
+
+        .body-main1-subtext-bs {
+            font-size: 60px;
+        }
+
+        .body-main1-subtext {
+            bottom: 17%;
+        }
+
+        .text-detail-hr {
+            margin: 1.5rem 0;
+        }
+
+        .project-hr {
+            margin-bottom: 1.5rem;
+            width: 30%;
+        }
+
+          
+    }
+    
+    /* md */
+    @media (max-width: 991px) and (min-width: 768px){
+        .subytext-main {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .body-main1-subtext-bs {
+            font-size: 60px;
+        }
+
+        .body-main1-subtext {
+            bottom: 17%;
+        }
+
+        h1.Aboutme:before {
+            top: -80px;
+            font-size: 160px;
+        }
+
+        #aboutme {
+            margin-top: 6rem;
+        }
+        
+        .Aboutme-subtext, .img-main  {
+            margin-top: 2rem;
+        }
+
+        
+        .text-detail-hr {
+            margin: 1.5rem 0;
+        }
+
+        .project-hr {
+            margin-bottom: 1.5rem;
+            width: 50%;
+        }
+
+        .workkas-project {
+            font-size: 24px;
+        }
+
+        .titleconten-project {
+            font-size: 27px;
+        }
+        
+
+    }
+    
+    
+    
+    /* sm */
+    
+    @media (max-width: 768px) and (min-width: 576px){
+        #body-main1 span {
+            font-size: 26vmax;
+        }
+        .body-main1-subtext-bs {
+            font-size: 45px;
+        }
+
+        .body-main1-subtext {
+            bottom: 17%;
+        }
+
+        h1.Aboutme:before {
+            top: -45px;
+            font-size: 120px;
+        }
+
+        #aboutme {
+            margin-top: 4rem;
+        }
+
+        .Aboutme-subtext {
+            margin-top: 1rem;
+        }
+
+        .title-project {
+            font-size: 48px;
+            }
+
+            .subtext-project {
+                font-size: 18px;
+            }
+
+            .project-hr {
+                width: 50%;
+                margin-bottom: 1.5rem;}
+
+                .titleconten-project {
+                    font-size: 27px;
+                }
+
+                .text-detail-hr {
+                    margin: 1.5rem 0;
+                }
+
+                .conten-project {
+                    margin-top: 6rem;
+                }
+              
+        
+        
+    }
+    
+    
+    /* m */
+    @media (max-width: 575.9px) and  (min-width: 400px) {
+        .body-main1-subtext-bs {
+            font-size: 40px;
+        }
+        h1.Aboutme:before {
+            top: -26px;
+            font-size: 91px;
+        }
+
+        #aboutme {
+            margin-top: 2rem;
+        }
+
+        .Aboutme-subtext {
+            margin-top: 1rem;
+        }
+
+        
+        .title-project {
+            font-size: 32px;
+            }
+
+            .subtext-project {
+                font-size: 18px;
+            }
+
+            .project-hr {
+                width: 50%;
+                margin-bottom: 1.5rem;}
+
+                .titleconten-project {
+                    font-size: 27px;
+                }
+
+                .text-detail-hr {
+                    margin: 1.5rem 0;
+                }
+
+                .conten-project {
+                    margin-top: 6rem;
+                }
+    
+        }
+    
+    
+    @media (max-width:399.9px) and (min-width: 319px){
+
+        .body-main1-subtext-mis {
+            font-size: 1rem;
+        }
+        .body-main1-subtext-bs {
+            font-size: 33px;
+        }
+        h1.Aboutme:before {
+            top: -26px;
+            font-size: 91px;
+        }
+
+        #aboutme {
+            margin-top: 2rem;
+        }
+
+        .Aboutme-subtext {
+            margin-top: 1rem;
+        }
+
+        
+        .title-project {
+            font-size: 24px;
+            }
+
+
+            .subtext-project {
+                font-size: 18px;
+            }
+
+            .project-hr {
+                width: 50%;
+                margin-bottom: 1.5rem;}
+
+                .titleconten-project {
+                    font-size: 27px;
+                }
+
+                .text-detail-hr {
+                    margin: 1.5rem 0;
+                }
+
+                .conten-project {
+                    margin-top: 6rem;
+                }
+  
+    }
